@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/719754834.svg)](https://zenodo.org/doi/10.5281/zenodo.10145352)
+
 # Cortical spike synchrony as a measure of Gestalt structure
 This repository contains the code used for the publication Cortical spike synchrony as a measure of Gestalt structure: link.
 It includes all scripts used to create a model, simulate neuronal firings data, calculate relevant statistics and produce figures.

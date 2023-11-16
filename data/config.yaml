@@ -1,0 +1,36 @@
+experiment:
+  experiment_ID: null
+  experiment_path: null #is filled automatically by the experiment code
+  random_seed: null #if null RNG is seeded automatically by OS 
+  connectivity_dir: "connectivity"
+  show_substeps: False
+  save_experiment: True
+  
+stimulus:
+    height: 20
+    width: 20
+
+preprocessing:
+  angle_resolution: 22.5 #filter_size can also be 'None' for min. viable filter size
+  filter_size: null
+  conv_threshold_specificity: 1.0
+  detect_angles: True
+
+connectivity:
+  connectivity_file_path: ".../" #Todo
+  input_strength: 2.5
+  spatial_strength: 0.5
+  angle_strength: 0.5
+  total_strength: 2.5
+          
+model:
+  delta_t: 0.005 # ms
+  ini_standard: False
+  voltage_noise_amount: 0.3
+  input_firing_rate: 30.0 # Hz
+  input_noise_type: gauss #gauss #SnP, poisson, speckle
+  input_noise_level: 0.4
+
+simulation:
+  length: 2000
+  downsample: 100

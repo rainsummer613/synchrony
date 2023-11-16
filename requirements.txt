@@ -1,0 +1,10 @@
+numpy
+scipy
+pandas
+scikit-posthocs
+elephant
+neo
+Pillow
+PyYAML
+scikit-image
+seaborn
